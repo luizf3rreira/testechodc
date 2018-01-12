@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans');
+
+
+
+.container{
+	width: 1160px;
+	margin: auto;
+}
+
+.box-1{
+	float: left;
+    /*width: 260px;*/
+    width: 22%;
+    margin-right: 10px;
+ }
+
+.box-1 h1{
+	padding: 5px;
+    font-size: 16px;
+    font-family:'Nunito Sans', sans-serif;
+    position: relative;
+    text-align: center;
+    margin: 0 0 20px 0;
+    letter-spacing: 4px;
+    color: #000;
+    text-transform: uppercase;
+
+}
+.box-1 h1:after{
+	left: 10%;
+    top: 100%;
+    width: 80%;
+    height: 1px;
+    content: "";
+    position: absolute;
+    background-color: #000;
+}
+.box-2{
+	position:relative;
+}
+.box-2 h1{
+	padding: 5px;
+    font-size: 16px;
+    font-family:'Nunito Sans', sans-serif;
+    position: relative;
+    text-align: center;
+    margin: 0 0 20px 0;
+    letter-spacing: 4px;
+    color: #000;
+    text-transform: uppercase;
+}
+.box-2 h1::after{
+	left: 34%;
+    top: 100%;
+    width: 50%;
+    height: 1px;
+    content: "";
+    position: absolute;
+    background-color: #000;
+}
+.item{
+	border: 1px solid #e6e6e6;
+	padding: 0;
+    margin: 0 auto;
+    position: relative;
+    width: 260px;
+    height: 322px;
+}
+
+.carousel{
+	width:75%;
+	height:100%;
+	float:left;
+	margin-left:20px;
+}
+
+.content {
+	left: 0;
+    bottom: 0;
+    width: 100%;
+    font-size: 0;
+    padding: 10px;
+    margin: 0 auto;
+    position: absolute;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.content a{
+	width: 55%;
+    height: 42px;
+    font-size: 10px;
+    text-align: left;
+    overflow: hidden;
+    line-height: 14px;
+    font-family: 'Nunito Sans', sans-serif;
+    vertical-align: top;
+    display: inline-block;
+    color: #000;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-decoration: none;
+
+}
+
+.price{
+	width: 45%;
+    font-size: 10px;
+    letter-spacing: 2px;
+    text-align: right;
+    vertical-align: bottom;
+    display: inline-block;
+    text-transform: uppercase;
+    font-family:'Nunito Sans', sans-serif
+}
+.main-price{
+	font-weight: bold;
+}
+
+.item-carousel{
+	float:left;
+	margin-left: 5px;
+    margin-right: 5px;
+}
+
+.carousel::before{
+ content: url(../img/arrow-left-128.png); 
+ position: absolute;
+     width: 28px;
+    height: 28px;
+    left: 262px;
+    top: 195px;
+ }
+.carousel::after{
+ content: url(../img/arrow-right-128.png); 
+ position: absolute;
+ width: 28px;
+    height: 28px;
+    top: 195px;
+    right: 35px
+ }
+
+ .arrow-circle{
+ 	width: 30px;
+ 	height: 30px;
+ 	background-color: #D90042;
+ 	content: url(../img/arrow-circle.png);
+ 	position:absolute;
+ 	top: 10px;
+    left: 10px;
+ }
+
